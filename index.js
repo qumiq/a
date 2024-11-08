@@ -37,7 +37,7 @@ app.listen(port, () => {
   console.log('\x1b[36m[ SERVER ]\x1b[0m', '\x1b[32m SH : http://localhost:' + port + ' ✅\x1b[0m');
 });
 
-const statusMessages = ["EDIT THE STATUS", "🎮 Playing VALORANT"];
+const statusMessages = ["boost swikomu! ദ്ദി ˉ͈̀꒳ˉ͈́ )✧"];
 let currentIndex = 0;
 
 async function login() {
@@ -55,7 +55,7 @@ async function login() {
 function updateStatus() {
   const currentStatus = statusMessages[currentIndex];
   client.user.setPresence({
-    activities: [{ name: currentStatus, type: ActivityType.Custom }],
+    activities: [{ name: currentStatus, type: ActivityType.Listening }],
     status: 'online',
   });
   console.log('\x1b[33m[ STATUS ]\x1b[0m', `Updated status to: ${currentStatus}`);
