@@ -37,7 +37,7 @@ app.listen(port, () => {
   console.log('\x1b[36m[ SERVER ]\x1b[0m', '\x1b[32m SH : http://localhost:' + port + ' ✅\x1b[0m');
 });
 
-const statusMessages = ["boost swikomu! ദ്ദി ˉ͈̀꒳ˉ͈́ )✧"];
+const statusMessages = ["boost swikomu! ദ്ദി ˉ͈̀꒳ˉ͈́ )✧", "boost swikomu! ദ്ദി ˉ͈̀꒳ˉ͈́ )✧"];
 let currentIndex = 0;
 
 async function login() {
